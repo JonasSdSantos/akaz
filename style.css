@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@1,300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@1,300&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+#home {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(23,63,98,1) 52%, rgba(101,142,160,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#img-logo {
+
+    height: 160px;
+    border-radius: 50%;
+    padding: 18px;
+
+}
+
+#menu-header {
+
+    display: flex;
+    gap: 150px;
+
+}
+
+.menu-header-text {
+
+    font-family: 'Oswald', sans-serif;
+    color: #f5f3df;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.menu-header-text:hover {
+
+    color: #bff3ff;
+
+}
+
+#content-primary {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(116,140,161,1) 0%, rgba(81,102,112,1) 51%);
+    border-top: 2px solid #1d262e;
+}
+
+#first-content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#content {
+    height: 250px;
+    box-shadow: 10px 5px 5px #393a3b;
+}
+
+#content-text {
+    font-family: 'Raleway', sans-serif;
+    color: #f5f3df;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#second-content {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+#some-text {
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Raleway', sans-serif;
+    color: #f5f3df;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+#reference {
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Raleway', sans-serif;
+    color: #f5f3df;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+#reference a{
+
+    color: #f5f3df;
+    padding-left: 5px;
+
+}
+
+#reference a:hover{
+
+    color: #bff3ff;
+
+}
+
+#about-us {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(101,142,160,1) 0%, rgba(23,63,98,1) 63%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid #1d262e;
+}
+
+#title-footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    color: #f5f3df;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.informations {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: #f5f3df;
+    font-size: 20px;
+    font-weight: 400;
+
+}
